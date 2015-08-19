@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">My Wallet</string>
+    <string name="or"><u>or</u></string>
+    <string name="receive_text"><u>Receive by QR code</u></string>
+    <string name="your_address"><u>Your address is</u></string>
+    <string name="dashboard_tab_label">Dashboard</string>
+    <string name="send_tab_label">Send</string>
+    <string name="receive_tab_label">Receive</string>
+    <string name="exchange_tab_label">Exchange</string>
+    <string name="allTransactions_tab_label">All transactions</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="textBalance">MCO balance + balance  in Euro</string>
+    <string name="buttonSendCoins">Send coins</string>
+    <string name="buttonReceiveCoins">Receive coins</string>
+    <string name="buttonExchange">Exchange</string>
+    <string name="buttonAllTransactions">All transactions</string>
+    <string name="labelInputAddress">Type in address:</string>
+    <string name="labelInputAmount">Type in amount:</string>
+    <string name="buttonScanQR">Scan QR code</string>
+    <string name="buttonWithdraw">Send</string>
+    <string name="labelPersonalAddress">Personal address</string>
+    <string name="buttonGenerateQR">Generate QR code</string>
+    <string name="labelUserName">Username</string>
+    <string name="labelPassword">Password</string>
+    <string name="labelFullName">Full name</string>
+    <string name="labelAddress">Address</string>
+    <string name="labelCity">City</string>
+    <string name="labelZip">Zip</string>
+    <string name="labelPhone">Phone</string>
+    <string name="labelExchange">Balances MCO + Euros</string>
+    <string name="buttonBuyMCO">Buy MCO</string>
+    <string name="buttonSellMCO">Sell MCO</string>
+
+    <!-- SETTINGS -->
+    <string name="label_email">Email</string>
+    <string name="label_city">City</string>
+    <string name="label_zip">Zip</string>
+    <string name="label_password">Password</string>
+    <string name="label_repeat_password">Repeat password</string>
+
+    <!-- FORGOT PASSWORD -->
+    <string name="button_send">Recover</string>
+
+    <!-- LOGIN -->
+    <string name="hint_password">\*********</string>
+    <string name="hint_email">username</string>
+    <string name="buttonLogin">Log In</string>
+    <string name="keep_logged_in">Keep me logged in</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="buttonRegister">Register</string>
+    <string name="copyright">Copyright (c) 2015 Coinsrace Ltd.</string>
+    <string name="title_activity_chage_password">chagePassword</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="title_activity_exchange">exchange</string>
+    <string name="title_activity_exchange_eur">exchangeEur</string>
+    <string name="title_activity_exchange_mco">exchangeMco</string>
+    <string name="title_activity_forgot_password">forgotPassword</string>
+    <string name="title_activity_receive">receive</string>
+    <string name="title_activity_send">send</string>
+    <string name="title_activity_settings">settingsActivity</string>
+    <string name="title_activity_all_transaction">allTransaction</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

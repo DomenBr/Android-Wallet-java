@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yappse.wallet"
+    android:installLocation="auto"
+    android:versionCode="4"
+    android:versionName="2.2" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <application
+        android:icon="@drawable/iconwallet"
+        android:label="Wallet">
+        <activity
+            android:name=".login"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Wallet"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".exchangeEur"
+            android:label="Exchange EUR"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme">
+        </activity>
+        <activity
+            android:name=".exchangeMco"
+            android:label="Exchange MCO"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme">
+        </activity>
+        <activity
+            android:name=".forgotPassword"
+            android:label="@string/title_activity_forgot_password"
+            android:theme="@style/NoActionBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".chagePassword"
+            android:label="Change password"
+            android:theme="@style/CustomActionBarTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".settingsActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="INSRACE"
+            android:icon="@drawable/icon"
+            android:theme="@style/CustomActionBarTheme"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

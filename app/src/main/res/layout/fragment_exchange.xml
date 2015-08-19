@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <FrameLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/background_gradient"
+        android:id="@+id/graph" />
+    <TextView
+        android:text="EXCHANGE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#062d5d"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textViewExchange" />
+    <View
+        android:id="@+id/primerdivisor"
+        android:layout_height="2dp"
+        android:layout_below="@+id/textViewExchange"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="#cccccc" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp">
+        <ImageButton
+            android:id="@+id/imageButtonEurExchange"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/euro_text"
+            android:background="@android:color/transparent"
+            android:layout_below="@id/textViewExchange"
+            android:paddingTop="200dp" />
+        <TextView
+            android:text="@string/or"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#062d5d"
+            android:id="@+id/textViewMCO"
+            android:paddingTop="220dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/primerdivisor" />
+        <ImageButton
+            android:id="@+id/imageButtonMcoExchange"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mco_text"
+            android:background="@android:color/transparent"
+            android:layout_below="@id/textViewExchange"
+            android:paddingTop="200dp" />
+    </LinearLayout>
+</RelativeLayout>

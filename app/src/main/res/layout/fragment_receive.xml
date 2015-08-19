@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="@string/receive_text"
+        android:layout_marginTop="30dp"
+        android:textColor="#cccccc"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewReceivebyQR" />
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:src="@drawable/qr_tmp"
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageViewReceiveByQRPic" />
+    <TextView
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/your_address"
+        android:textColor="#cccccc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+    <TextView
+        android:gravity="center"
+        android:text="dgsdgfdgoie432944"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0099FF"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewAddressText" />
+</LinearLayout>

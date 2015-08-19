@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view_send"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="31.45345345 MCO"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:textColor="#0099FF"
+            android:textSize="30dp"
+            android:id="@+id/textViewMCO" />
+        <TextView
+            android:text="1,943.34 EUR"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewEUR"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="#0099FF"
+            android:layout_below="@id/textViewMCO" />
+        <LinearLayout
+            android:id="@+id/lin_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/textViewEUR">
+            <EditText
+                android:layout_width="wrap_content"
+                android:paddingRight="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:hint="Enter address or scan QR"
+                android:id="@+id/editTextAddress" />
+            <ImageButton
+                android:id="@+id/imageButtonScanQR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qr_scan_pic"
+                android:background="@android:color/transparent"
+                android:paddingLeft="20dp"
+                android:layout_below="@id/textViewMCO"
+                android:layout_toRightOf="@id/editTextAddress" />
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:hint="Amount"
+            android:inputType="number"
+            android:gravity="center_horizontal"
+            android:id="@+id/editTextAmount"
+            android:layout_below="@id/lin_layout" />
+        <Button
+            android:text="SEND"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/editTextAmount"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:paddingLeft="25dip"
+            android:paddingRight="25dip"
+            android:id="@+id/buttonSend" />
+    </RelativeLayout>
+</ScrollView>

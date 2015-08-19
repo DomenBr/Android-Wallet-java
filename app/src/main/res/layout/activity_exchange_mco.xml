@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Enter amount (MCO)"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelAmountMco" />
+    <EditText
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount MCO"
+        android:gravity="center_horizontal"
+        android:id="@+id/inputValueMco" />
+    <Button
+        android:text="MCO to Euro"
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:paddingLeft="25dip"
+        android:paddingRight="25dip"
+        android:id="@+id/buttonExchangeMco" />
+</LinearLayout>

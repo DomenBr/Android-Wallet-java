@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="30dp"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:src="@drawable/transaction_green"
+        android:textColor="#062d5d"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:id="@+id/imageViewIconList" />
+    <TextView
+        android:text="€ 34.45"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#062d5d"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewIconList"
+        android:id="@+id/textViewAmountList" />
+    <TextView
+        android:text="in 12345jkhlg3453452452435kjgbh"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#062d5d"
+        android:paddingTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewIconList"
+        android:id="@+id/textViewAddressList" />
+    <TextView
+        android:id="@+id/transaction_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receiving of MCO"
+        android:textColor="#cccccc"
+        android:layout_below="@id/textViewAddressList"
+        android:layout_toRightOf="@id/imageViewIconList"
+        android:textSize="12dp" />
+    <TextView
+        android:text="14 April 2015"
+        android:textColor="#062d5d"
+        android:textSize="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/textViewDateList" />
+    <TextView
+        android:text="23:33:33"
+        android:textColor="#062d5d"
+        android:textSize="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewDateList"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/textViewTimeList" />
+</RelativeLayout>
